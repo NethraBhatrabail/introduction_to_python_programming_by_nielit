@@ -1,0 +1,7 @@
+#learning variable
+print("Enter ur name")
+name=input()
+print(f"Your name is {name}")
+#print(f" .... {variable}..") to print the content of variable
+name="Dhanya K"
+print(f"Your sister\'s name is {name}")
