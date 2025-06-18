@@ -1,0 +1,11 @@
+#declaring list
+my=[1,2,3,4,5]
+colours=["green", "red", "blue"]
+my_listing=[1,4.1,True,"TEN"]
+print(colours)
+print(colours[0])
+colours[2]="yellow" # to replace blue(2nd element) by yellow
+print(colours)
+print(my)
+print(my_listing)
+print(my_listing[2])
