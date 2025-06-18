@@ -1,0 +1,27 @@
+# eg for function parameter
+def greet(lang):
+    if lang=='yes':
+        print('Hii')
+    elif lang=='no':
+        print('Hello')
+    else:
+        print('Hmm')
+        
+greet('yes')
+greet('no')
+greet('yesno')
+
+#return values
+def greet():
+    return "Hello"
+
+print(greet(),"Nethra")
+
+
+#some more example for function
+def addtwo(a,b):
+    sum=a+b
+    return sum
+x=addtwo(3,5)
+print(x)
+
