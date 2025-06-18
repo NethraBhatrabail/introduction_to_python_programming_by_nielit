@@ -1,0 +1,17 @@
+print("Enter adjective")
+adjective=input()
+print("Enter a personName")
+personName=input()
+print("Enter verb")
+verb=input()
+print("Enter verb1")
+verb1=input()
+print("Enter verb2")
+verb2=input()
+print("Enter verb3")
+verb3=input()
+print("Enter placeName")
+placeName=input()
+print(f"It was a {adjective} summer day and {personName} felt it was very hot.{personName} decided to {verb} to swimming pool.At the pool the people {verb1},{verb2},{verb3} in water. At the end of the day everyone left and went to the {placeName}.")
+
+
