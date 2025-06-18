@@ -1,0 +1,17 @@
+import random
+for i in range(5):  # 5 is to get 5 random numbers 
+    print(random.randint(500,1000))
+    
+    
+#one more example
+name_list=[]
+name=""
+while name!="done":
+    print("Please enter a name or 'done' if finished")
+    name=input()
+    if name!="done":
+        name_list.append(name)
+    print("list contains",end="")
+    print(name_list)
+    random_name=random.choice(name_list)
+    print(f"I picked {random_name}")
