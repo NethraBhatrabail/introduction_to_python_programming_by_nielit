@@ -1,0 +1,7 @@
+my=(1,2,3,4,5)
+colours=("green", "red","blue")
+print(len(my))
+print(len(colours))
+print(colours.count('red'))
+print(colours.index('blue'))
+      
