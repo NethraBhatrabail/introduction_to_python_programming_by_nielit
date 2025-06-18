@@ -1,0 +1,18 @@
+import turtle
+aabb=turtle.Screen()  # any name u can give before =
+aabb.setup(800,600)
+aabb.title('nethra')
+
+#creating the turtle
+anyName=turtle.Turtle()
+anyName.speed("slowest")  # u can vary the speed by using any of these slow , slowest , fast, fastest
+anyName.pencolor("red") 
+anyName.pensize(10)
+#drawing my image
+anyName.penup()
+name=aabb.textinput("Name input","Enter ur name:")  #textinput is function
+anyName.write(name)
+age=aabb.numinput("Age inputs", "Enter ur age",2, minval=5,maxval=100)  #numinput is function
+anyName.goto(50,60)
+anyName.write(age)
+
