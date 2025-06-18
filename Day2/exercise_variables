@@ -1,0 +1,16 @@
+print("enter ur name")
+name=input()
+print(name)
+
+import pyttsx3
+#to make pc to speak
+engine=pyttsx3.init()
+print("Enter the first name and then enter")
+firstname=input()
+print("Enter the last name and then enter")
+lastname=input()
+print(f"Hello ur name is {firstname}{lastname}")
+engine.say(f"Hello ur name is {firstname}{lastname}")
+engine.runAndWait()
+
+
