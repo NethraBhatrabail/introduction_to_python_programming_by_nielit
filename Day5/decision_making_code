@@ -1,0 +1,7 @@
+print("What is ur age")
+age=int(input())
+adult=age>=18
+if adult:
+    print("You are an adult")
+else:    #do not give one tab space or else it will show error
+        print("You are a child")
