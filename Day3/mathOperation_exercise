@@ -1,0 +1,6 @@
+print("Enter ur age in human year")
+humanYear=int(input())  # u can use int for integer and float for decimal point
+print("What will the age in bird year")
+birdYear=humanYear*9
+print(f"Age in bird year is {birdYear}")
+
