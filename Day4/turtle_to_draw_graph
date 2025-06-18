@@ -1,0 +1,21 @@
+import turtle
+aabb=turtle.Screen()  # any name u can give before =
+aabb.setup(800,600)
+aabb.bgpic('garph.gif')
+aabb.title('nethra')
+
+#creating the turtle
+anyName=turtle.Turtle()
+anyName.speed("slowest")  # u can vary the speed by using any of these slow , slowest , fast, fastest
+anyName.pencolor("red") 
+anyName.pensize(10)
+
+#Draw a square
+anyName.penup() #it will not actually start to draw , in real say a student takes penup  form table so that from next moment they can draw
+anyName.goto(100,100) # go to 100 in x and 100 in y
+anyName.pendown() # n real say student keep pen down on paper to write
+anyName.goto(-100,100)
+anyName.goto(-100,-100)
+anyName.goto(100,-100)
+anyName.goto(100,100)
+
