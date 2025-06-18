@@ -1,0 +1,11 @@
+#exercise1
+# to print a upside down triangle
+print("*******")
+print(" ***** ")
+print("  ***  ")
+print("   *   ")
+
+#exrcise2
+print("\"Success is no accident.It is hardwork,learning,studying,sacrifice,perseverence \n Love what u do\"")
+#output- "Success is no accident.It is hardwork,learning,studying,sacrifice,perseverence 
+ Love what u do"
