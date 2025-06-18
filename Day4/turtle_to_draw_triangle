@@ -1,0 +1,20 @@
+import turtle
+aabb=turtle.Screen()  # any name u can give before =
+aabb.setup(800,600)
+aabb.bgpic('garph.gif')
+aabb.title('nethra')
+
+#creating the turtle
+anyName=turtle.Turtle()
+anyName.speed("fast")  # u can vary the speed by using any of these slow , slowest , fast, fastest
+anyName.pencolor("green") 
+anyName.pensize(10)
+anyName.fillcolor("violet")  #fillin of colour
+anyName.begin_fill()  # start filling colour
+anyName.left(120)  # to turn the turtle by 120 degree in order to draw  \ of triangle
+anyName.forward(200)  # go forward up to 200 length and will draw \ of triangle
+anyName.left(120) # then turn the turtle by 120 degree in order to draw / of triangle
+anyName.forward(200) # go forward up to 200 length and will draw / of triangle
+anyName.left(120)  # then turn the turtle by 120 degree in order to draw _ of triangle
+anyName.forward(200)  # go forward up to 200 length and will draw _ of triangle
+anyName.end_fill()  #stop here
