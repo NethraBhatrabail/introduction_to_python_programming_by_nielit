@@ -1,0 +1,6 @@
+#counting items in a list
+name=["monkey", "dog","monkey","cow", "cat","monkey"]
+no_count=name.count("monkey")
+x=name.count("cow")
+print(f"Number of times monkey appered in list is {no_count} and cow is {x}")
+
