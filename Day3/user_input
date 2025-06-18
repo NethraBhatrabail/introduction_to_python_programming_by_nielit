@@ -1,0 +1,7 @@
+print("Enter a verb")
+verb=input()
+print("Enter a place")
+place=input()
+print("Enter a noun")
+noun=input()
+print(f"Nethra {verb} to the {place} for getting {noun} ")
